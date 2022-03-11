@@ -7,6 +7,11 @@
 |3.|99007473| Nithin Palagani|
 |4.| 99007474| Suvedha Renganathan|
 
+## BADGES
+| Codiga-Code quality|Codiga-Code grade| Codacy | 
+| ------ | ------ | ----- | 
+|![Codiga Score](https://api.codiga.io/project/31891/score/svg)|![Codiga Score](https://api.codiga.io/project/31891/status/svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ac666b8bba6640d09955d1707467e6e6)](https://www.codacy.com/gh/Nithin1503/M3_Group1/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nithin1503/M3_Group1&amp;utm_campaign=Badge_Grade)|
+
 
 
 # Table of Content
