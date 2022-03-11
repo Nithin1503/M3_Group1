@@ -9,10 +9,11 @@ Remote keyless systems consist of a key fob transmitter and a receiver inside th
 
 ID     | Description
 -------| -----------------------------------------
-HLR 1  |
-HLR 2  |
-HLR 3  |
-HLR 4  |
+HLR 1  |Remote keyless system shall be used to lock the system
+HLR 2  |Remote keyless system shall be used to unlock the system
+HLR 3  |Remote keyless sytem shall be used to activate or deactivate the alarm
+HLR 4  |Remote keyless system shall be used to indicate lights 
+HLR 5  |Remote keyless system shall be resistant to unauthorized access
 
 ## Low Level Requirements
 
@@ -36,10 +37,11 @@ HLR 4  |
   * It is upto paticular range of distance only.
   * We are unable to know status of car when we are away from it.
 
-### OPPURTUNITIES
+### OPPORTUNITIES
 
   * Wide range of application in automobile industries.
   * Huge demand in car safety applications.
+  * Demand in the field of Smart Home applications
 
 ### THREATS
 
