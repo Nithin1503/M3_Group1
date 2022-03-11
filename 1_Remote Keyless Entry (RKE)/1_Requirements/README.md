@@ -17,10 +17,25 @@ HLR 5  |Remote keyless system shall be resistant to unauthorized access
 
 ## Low Level Requirements
 
-| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|  
+| -------- | -------------- | ---- |-------- | -------------- |  
+| LLR1.1 | All the LEDs shall on at the same time  | | LLR2.1 | All the LEDs shall off at the same time | 
+
+
+| ID | Low Level Requirements for HL3|       |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- |-------- | -------------- |
-| LLR1.1 |   | | LLR2.1 |  |
-| LLR1.2 |  || LLR2.2 |   |
+| LLR3.1 | All the LEDs shall on in the clockwise manner  | | LLR4.1 | All the LEDs shall on in anticlock wise manner  |
+
+| ID | Low Level Requirements for HL5|       
+| -------- | -------------- | 
+| LLR5.1 | Implementing the encryption and rolling algorithm  | 
+
+
+
+
+
+
+
 
 
 ## SWOT ANALYSIS
