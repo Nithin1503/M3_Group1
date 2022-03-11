@@ -9,8 +9,7 @@
 
 ### 1.2 LOW LEVEL BEHAVIOURAL DIAGRAM
 
-![image](https://user-images.githubusercontent.com/98879965/157842631-276a1a92-c552-4f3c-88ce-2ae49abb7459.png)
-
+![image](https://user-images.githubusercontent.com/98839429/157843420-1e64df69-4382-493f-95d6-23821cb4caf4.png)
 
 ## 2 STRUCTURAL DIAGRAMS
 
