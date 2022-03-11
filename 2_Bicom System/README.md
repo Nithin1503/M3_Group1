@@ -1,5 +1,6 @@
 # Table of Content
 |Folder|Description|
+|------|-----------|
 |1_Requirements| Contains description, identifying features, requirements, SWOT analysis, 5W's 1H|
 |2_Architecture|Contains behavioural diagram,structural diagram|
 |3_Implementation| Code and files related to project |
