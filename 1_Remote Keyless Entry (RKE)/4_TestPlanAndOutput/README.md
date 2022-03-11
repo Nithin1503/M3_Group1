@@ -12,7 +12,7 @@
 
 ## Low Level Testing
 
-| Test ID | Description of Test case | Input values | Expected Output | Actual Output | Status | 
+| Test ID | Description of Test case | Input values | Expected Output | Actual Output | Status |  
 |:-----:|:--------------------------:|:--------------:|:-----------------:|:---------------:|:---------:|
 | LL1  |Test For Car Lock   |Press Button one time  |All the led's are turned ON at same time  |All the led's are turned ON at same time  |SUCCESS ✅ | 
 | LL2  | Test For Car Unlock  |Press Button two times   |All the led's are turned OFF at same time  |All the led's are turned OFF at same time  |SUCCESS ✅ | 
