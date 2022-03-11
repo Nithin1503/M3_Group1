@@ -12,7 +12,7 @@
 ![image](https://user-images.githubusercontent.com/98879965/157842301-a2f310fe-f1da-4ba3-acf3-4e419537b3c4.png)
 
 
-## 2 Structral Diagrams
+## 2 Structural Diagrams
 
 ### 2.1 High Level Diagram
 
