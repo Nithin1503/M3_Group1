@@ -5,7 +5,7 @@
 
 ### 1.1 High Level Diagram
 
-![2](https://user-images.githubusercontent.com/46949702/157829166-bb098db0-d7e9-4bf6-949f-f9db7a81a343.png)
+![4](https://user-images.githubusercontent.com/46949702/157837592-a2a2ccb4-a6a8-4276-bd56-110163832385.png)
 
 ### 1.2 Low Level Diagram
 
