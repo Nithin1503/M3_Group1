@@ -1,13 +1,13 @@
 
-# ARCHITECTURE
+# Architecture
 
-## 1. BEHAVIOURAL DIAGRAMS
+## 1. Behavioral Diagram
 
-### 1.1 HIGH LEVEL BEHAVIOURAL DIAGRAM
+### 1.1 High Level Diagram
 
-![HIGH LEVEL](https://user-images.githubusercontent.com/98839429/157822522-41600bf2-9d73-48bf-bd3c-0737a75778e4.png)
+![2](https://user-images.githubusercontent.com/46949702/157829166-bb098db0-d7e9-4bf6-949f-f9db7a81a343.png)
 
-### 1.2 LOW LEVEL BEHAVIOURAL DIAGRAM
+### 1.2 Low Level Behavioral Diagram
 
 ![LOW LEVEL]
 
