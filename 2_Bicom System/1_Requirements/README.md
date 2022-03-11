@@ -11,6 +11,26 @@ By pressing the button:
 - It also displays about the car battery information
 - It also shows the door status of a car whether open or not
 
+## High Level Requirements
+
+High Level Requirement ID     | Description |
+-------| -----------------------------------------|
+HLR_1  |Get the status of car windows|
+HLR_1  |Get the status of car alarm|
+HLR_1  |Get the information about car battery|
+HLR_1  |Get the status of car door|
+
+
+
+
+
+## Low Level Requirements
+
+| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| -------- | -------------- | ---- |-------- | -------------- |
+| LLR1.1 |   | | LLR2.1 |  |
+| LLR1.2 |  || LLR2.2 |   |
+
 ## SWOT Analysis
 ![1](https://user-images.githubusercontent.com/46949702/157812922-1a8d62fa-e311-4544-9604-b67284372456.png)
 
@@ -27,3 +47,4 @@ By pressing the button:
 - Who - Person who has a car.
 
 - How - By using the keyfob a remote controlled device.
+
