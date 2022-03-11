@@ -7,10 +7,10 @@
 ![5](https://user-images.githubusercontent.com/46949702/157838233-f1376795-b0e5-4965-acc4-b3bacb70074f.png)
 
 
-
 ### 1.2 LOW LEVEL BEHAVIOURAL DIAGRAM
 
-![LOW LEVEL]
+![image](https://user-images.githubusercontent.com/98879965/157842631-276a1a92-c552-4f3c-88ce-2ae49abb7459.png)
+
 
 ## 2 STRUCTURAL DIAGRAMS
 
