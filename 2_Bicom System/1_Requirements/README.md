@@ -2,8 +2,7 @@
 
 ## Description
 
-Bi-Com system is an extension of uni-directional Remote Keyless Entry(RKE) to bi-directional RKE. Remote keyless entry (RKE) is an electronic access system that is used to remotely lock or unlock doors, require the end user to initiate an action that will cause a physical or software key fob to transmit a radio signal to a receiver that controls an electronic lock. Typically, the action is to press a button on a physical fob. Similarly in bi-com, the communication is not only from key fob to car but also from car to key fob.
-Bi-com supports additional features like get the staus of car which include window status, alarm status, battery information and door status in additon to the features supported by RKE.
+Bi-Com system is an extension of uni-directional Remote Keyless Entry(RKE) to bi-directional RKE. Remote Bi-Com is an electronic access system that is used to perform specific funtions and  require the end user to initiate an action. Here, the communication is not only from key fob to car but also from car to key fob. Some of the additional features supported in Bi-com are to get the information about staus of car which includes window status, alarm status, battery information and door status.
 
 # State of Art/Research
 By pressing the button:
