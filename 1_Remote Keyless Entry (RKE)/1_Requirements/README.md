@@ -3,6 +3,12 @@
 Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles. Over 70% of the vehicles made today come with a remote keyless entry (RKE) system either standard or as an option. RKE systems are also a high volume after-market accessory. Most remote keyless entry systems alarm the vehicle against theft and lock and unlock the doors and trunk. Some include remote start and car finder functions.
 Remote keyless systems consist of a key fob transmitter and a receiver inside the vehicle.
 
+## IDENTIFYING FEATURES
+By depending upon the number of times the button pressed
+* It should lock and unlock the car.
+* It should activate and deactivate the car alarm
+* It should activate the approach light of car.
+
 # REQUIREMENTS
  
  ## High Level Requirements:
