@@ -3,10 +3,10 @@
 
 | Test ID | Description of Test case | Input| Expected Output | Actual Output | Status | 
 |:-----:|:--------------------------:|:-----------------:|:---------------:|:---------:|-----|
-| HL1 | Car Should Lock |Press Button one time| Car Locked|Car Locked |SUCCESS ✅| 
-| HL2 | Car Should UnLock | Press Button two times| Car Unlocked |Car Unlocked| SUCCESS ✅ | 
-| HL3 | Car Should Activate/Deactivate  Alarm |Press Button three times | Alarm Activated/Deactivated|Alarm Activated/Deactivated|SUCCESS ✅| 
-| HL4 | Car Should Activate Approach Light |Press Button four times  | Approach Light ON|Approach Light ON  | SUCCESS ✅ |
+| HL1 | Car Shall Lock |Press Button one time| Car Locked|Car Locked |SUCCESS ✅| 
+| HL2 | Car Shall UnLock | Press Button two times| Car Unlocked |Car Unlocked| SUCCESS ✅ | 
+| HL3 | Car Shall Activate/Deactivate  Alarm |Press Button three times | Alarm Activated/Deactivated|Alarm Activated/Deactivated|SUCCESS ✅| 
+| HL4 | Car Shall Activate Approach Light |Press Button four times  | Approach Light ON|Approach Light ON  | SUCCESS ✅ |
 | HL5 |Encryption|No. of times button pressed|Random|Random|SUCCESS ✅
 
 
