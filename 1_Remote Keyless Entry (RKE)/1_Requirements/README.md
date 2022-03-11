@@ -37,13 +37,6 @@ HLR 5  |Remote keyless system shall be resistant to unauthorized access
 | LLR5.1 | Implementing the encryption and rolling algorithm  | 
 
 
-
-
-
-
-
-
-
 ## SWOT ANALYSIS
 
 ### STRENGTH
