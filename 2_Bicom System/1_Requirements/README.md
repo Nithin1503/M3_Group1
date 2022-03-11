@@ -20,16 +20,23 @@ HLR_1  |Get the status of car alarm|
 HLR_1  |Get the information about car battery|
 HLR_1  |Get the status of car door|
 
-
-
-
-
 ## Low Level Requirements
 
-| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| ID | Low Level Requirements for HL_1|       |ID | Low Level Requirements for HL_2|
 | -------- | -------------- | ---- |-------- | -------------- |
-| LLR1.1 |   | | LLR2.1 |  |
-| LLR1.2 |  || LLR2.2 |   |
+| LLR_1.1 |   | | LLR_2.1 |  |
+| LLR_1.2 |  || LLR_2.2 |   |
+
+| ID | Low Level Requirements for HL_1|       |ID | Low Level Requirements for HL_2|
+| -------- | -------------- | ---- |-------- | -------------- |
+| LLR_1.1 |  Check if button is pressed once  | | LLR_2.1 | Check if button is pressed twice |
+| LLR_1.2 | Switch ON all LEDs at the same time || LLR_2.2 |Switch OFF all LEDs at the same time   |
+
+| ID | Low Level Requirements for HL_3|       |ID | Low Level Requirements for HL_4|
+| -------- | -------------- | ---- |-------- | -------------- |
+| LLR_1.1 |  Check if button is pressed thrice.  | | LLR_2.1 | Check if button is pressed four times. |
+| LLR_1.2 | Switch ON all LEDs in clockwise pattern || LLR_2.2 |Switch ON all LEDs in anti-clockwise direction.  |
+
 
 ## SWOT Analysis
 ![1](https://user-images.githubusercontent.com/46949702/157812922-1a8d62fa-e311-4544-9604-b67284372456.png)
