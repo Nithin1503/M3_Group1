@@ -1,0 +1,62 @@
+## REMOTE KEYLESS ENTRY
+## DESCRIPTION
+Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles. Over 70% of the vehicles made today come with a remote keyless entry (RKE) system either standard or as an option. RKE systems are also a high volume after-market accessory. Most remote keyless entry systems alarm the vehicle against theft and lock and unlock the doors and trunk. Some include remote start and car finder functions.
+Remote keyless systems consist of a key fob transmitter and a receiver inside the vehicle.
+
+# REQUIREMENTS
+ 
+ ## High Level Requirements:
+
+ID     | Description
+-------| -----------------------------------------
+HLR 1  |
+HLR 2  |
+HLR 3  |
+HLR 4  |
+
+## Low Level Requirements
+
+| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| -------- | -------------- | ---- |-------- | -------------- |
+| LLR1.1 |   | | LLR2.1 |  |
+| LLR1.2 |  || LLR2.2 |   |
+
+
+## SWOT ANALYSIS
+
+### STRENGTH
+
+  * Easy to operate
+  * User friendly
+  * More safety
+  * Less Cost
+
+### WEAKNESS
+
+  * It is upto paticular range of distance only.
+  * We are unable to know status of car when we are away from it.
+
+### OPPURTUNITIES
+
+  * Wide range of application in automobile industries.
+  * Huge demand in car safety applications.
+
+### THREATS
+
+  * Unable to do multpile operations at a time.
+  * Less accurate timing.
+
+## 5W'S 1H
+
+### WHAT
+   This is a Wireless Remote key to control the car.
+### WHEN
+   When the user want to lock/unlock the car and to perform other operations.
+### WHERE
+   It can be used in car controlling applications.
+### WHO
+   People who are having the car.
+### WHY
+   Inorder to access the car easily.
+### HOW
+   By using Wireless Remote key.  
