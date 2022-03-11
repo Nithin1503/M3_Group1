@@ -22,7 +22,7 @@
 
 ### 2.2 Low Level Diagram
 
-![6](https://user-images.githubusercontent.com/46949702/157931422-311cfb1b-9dcb-4943-aa55-de2cc301862f.png)
+![8](https://user-images.githubusercontent.com/46949702/157950089-39217c4e-edc3-4bc4-b562-7c209218cc3b.png)
 
 
 
