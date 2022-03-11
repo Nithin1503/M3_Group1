@@ -9,7 +9,7 @@
 
 ### 1.2 Low Level Diagram
 
-![3]![image](https://user-images.githubusercontent.com/98879965/157840617-61b89b40-00ea-4090-a5e4-1b4199aa9339.png)
+![image](https://user-images.githubusercontent.com/98879965/157840617-61b89b40-00ea-4090-a5e4-1b4199aa9339.png)
 
 ## 2 Structral Diagrams
 
