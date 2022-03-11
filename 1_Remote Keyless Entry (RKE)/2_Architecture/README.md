@@ -5,7 +5,8 @@
 
 ### 1.1 HIGH LEVEL BEHAVIOURAL DIAGRAM
 
-![HIGH LEVEL]
+![HIGH LEVEL](https://user-images.githubusercontent.com/98839429/157820442-6cd204ab-3d0f-42b3-850e-3cff3ba3ecfc.png)
+
 
 ### 1.2 LOW LEVEL BEHAVIOURAL DIAGRAM
 
