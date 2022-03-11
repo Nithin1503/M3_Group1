@@ -26,12 +26,14 @@ HLR_1  |Get the status of car door|
 | ID | Low Level Requirements for HL_1|       |ID | Low Level Requirements for HL_2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | LLR_1.1 |  Check if button is pressed once  | | LLR_2.1 | Check if button is pressed twice |
-| LLR_1.2 | Switch ON all LEDs at the same time || LLR_2.2 |Switch OFF all LEDs at the same time   |
+| LLR_1.2 | Clear the state of LEDs || LLR_2.2 | Clear the state of LEDs   |
+| LLR_1.3 | Switch ON all LEDs at the same time || LLR_2.3 |Switch OFF all LEDs at the same time   |
 
 | ID | Low Level Requirements for HL_3|       |ID | Low Level Requirements for HL_4|
 | -------- | -------------- | ---- |-------- | -------------- |
 | LLR_1.1 |  Check if button is pressed thrice.  | | LLR_2.1 | Check if button is pressed four times. |
-| LLR_1.2 | Switch ON all LEDs in clockwise pattern || LLR_2.2 |Switch ON all LEDs in anti-clockwise direction.  |
+| LLR_1.2 | Clear the state of LEDs || LLR_2.2 | Clear the state of LEDs   |
+| LLR_1.3 | Switch ON all LEDs in clockwise pattern || LLR_2.3 |Switch ON all LEDs in anti-clockwise direction.  |
 
 
 ## SWOT Analysis
