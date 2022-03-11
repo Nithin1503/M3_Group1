@@ -22,10 +22,6 @@ HLR_1  |Get the status of car door|
 
 ## Low Level Requirements
 
-| ID | Low Level Requirements for HL_1|       |ID | Low Level Requirements for HL_2|
-| -------- | -------------- | ---- |-------- | -------------- |
-| LLR_1.1 |   | | LLR_2.1 |  |
-| LLR_1.2 |  || LLR_2.2 |   |
 
 | ID | Low Level Requirements for HL_1|       |ID | Low Level Requirements for HL_2|
 | -------- | -------------- | ---- |-------- | -------------- |
