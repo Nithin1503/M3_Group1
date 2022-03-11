@@ -1,14 +1,13 @@
 /**
  * @file main.c
- * @author Group1 
- * @brief  code to implement Remote Keyless Entry (RKE)
+ * @author Group1
+ * @brief  Code to implement bicom system
  * @version 0.1
  * @date 2022-03-12
  * 
  * @copyright Copyright (c) 2022
  * 
  */
-
 #include <stdio.h>
 #include "MyStm32f407xx.h"
 #include<stdbool.h>
@@ -16,14 +15,14 @@
 
 #define BTN_PRESSED ENABLE
 
-int enc()                                              //Function made by akshata
+int enc()                                                      //function made by akshata
 
 { 
    bool flag = false;
    const int p = 10;
    const int q = 10;
-   int answer = p + q;
-   if(answer==20)
+   int answer = p+q;
+   if(answer==100)
    {
 
       flag= true;
@@ -35,13 +34,19 @@ int enc()                                              //Function made by akshat
 
    return flag;
 }
-   void delay(void)
+   void delay(void)                                             //function made by chatali
    {
       for (uint32_t i = 0; i < 5000000; i++);
    }
-   
-   
-   void lock(void)
+   void alarm_status (void)
+   {
+      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 0);
+      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 0);
+      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14, 0);
+      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15, 0);
+
+   }
+   void window_status (void)                                         //Function made by suvedha
    {
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 1);
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 1);
@@ -49,17 +54,9 @@ int enc()                                              //Function made by akshat
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15, 1);
 
    }
-   void unlock(void)                                         // Function made by chaitali
+   void car_battery_status(void)
    {
-      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 0);
-      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 0);
-      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14, 0);
-      GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15, 0);
-  }
-
-   void Alarm_Act_Deact(void)
-   {
-      
+      delay();
       GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_12);
       delay();
       GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_13);
@@ -70,9 +67,9 @@ int enc()                                              //Function made by akshat
       delay();
 
    }
-   void Activate_Approach_light(void)                         // Function made by suvedha
+   void Door_status(void)
    {
-     
+      delay();
       GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_15);
       delay();
       GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_14);
@@ -83,7 +80,7 @@ int enc()                                              //Function made by akshat
       delay();
       
    }
-   int main(void)                                           // Main function made by Nithin
+   int main(void)                                              //Main Function made by Nithin
    {   
       int num = 0;
       GPIO_Handle_t GpioLed, GPIOBtn, GpioLed1, GpioLed2, GpioLed3;
@@ -128,7 +125,7 @@ int enc()                                              //Function made by akshat
       GPIO_PeriClockControl(GPIOA, ENABLE);
       GPIO_Init(&GPIOBtn);
       
-      if (enc())                                         // Condition made by all group members
+      if (enc())                                                 //Condition made all group
       {
 
          while (1)
@@ -136,26 +133,25 @@ int enc()                                              //Function made by akshat
             if (GPIO_ReadFromInputPin(GPIOA, GPIO_PIN_NO_0) == BTN_PRESSED)
             {
                delay();
-               num = num+2;
+               num = num + 2;
             }
             if (num == 4)
             {
-               lock();
+               window_status();
             }
             else if (num == 8)
             {
-                unlock();
+                alarm_status();
             }
             else if (num==16)
             {
 
-               Alarm_Act_Deact();
+               car_battery_status();
             }
             else if (num==32)
             {
-               Activate_Approach_light();
+               Door_status();
             }
          }
       }
    }
-
