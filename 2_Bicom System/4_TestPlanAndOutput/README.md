@@ -1,0 +1,21 @@
+## TEST PLAN AND OUTPUT
+## High Level Testing
+
+| Test ID | Description of Test case | Input| Expected Output | Actual Output | Status | 
+|:-----:|:--------------------------:|:-----------------:|:---------------:|:---------:|-----|
+| HL1 | Car Shall Lock |Press Button one time| shall display car window status|It displays the car window status |SUCCESS ✅| 
+| HL2 | Car Shall UnLock | Press Button two times| shall display car alarm status|It displays the car alarm status| SUCCESS ✅ | 
+| HL3 | Car Shall Activate/Deactivate  Alarm | Press Button three times | shall display car battery info | It displays the car battery info|SUCCESS ✅| 
+| HL4 | Car Shall Activate Approach Light |Press Button four times  | shall display the car door status|It displays the car door status  | SUCCESS ✅ |
+| HL5 |Encryption|No. of times button pressed|Random|Random|SUCCESS ✅
+
+
+## Low Level Testing
+
+| Test ID | Description of Test case | Input values | Expected Output | Actual Output | Status | 
+|:-----:|:--------------------------:|:--------------:|:-----------------:|:---------------:|:---------:|
+| LL1  |Test For Car Lock   |Press Button one time  |All the led's are turned ON at same time  |All the led's are turned ON at same time  |SUCCESS ✅ | 
+| LL2  | Test For Car Unlock  |Press Button two times   |All the led's are turned OFF at same time  |All the led's are turned OFF at same time  |SUCCESS ✅ | 
+| LL3  |Test For Car Activation/Deactivation |Press Button one times  | All the led's are turned ON in Clockwise Direction |All the led's are turned ON in Clockwise Direction | SUCCESS ✅ | 
+| LL4 |Test For Car Approach lights  |Press Button three times  |All the led's are turned ON in Anticlockwise Direction | All the led's are turned ON in Anticlockwise Direction| SUCCESS ✅ | 
+| LL5 |Test For Encryption |No. of times button pressed|Random|Random|SUCCESS ✅
