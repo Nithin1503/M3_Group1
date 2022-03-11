@@ -1,3 +1,14 @@
+/**
+ * @file main.c
+ * @author Group1 
+ * @brief  code to implement Remote Keyless Entry (RKE)
+ * @version 0.1
+ * @date 2022-03-12
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include <stdio.h>
 #include "MyStm32f407xx.h"
 #include<stdbool.h>
@@ -5,7 +16,7 @@
 
 #define BTN_PRESSED ENABLE
 
-int enc()
+int enc()                                              //Function made by akshata
 
 { 
    bool flag = false;
@@ -38,7 +49,7 @@ int enc()
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15, 1);
 
    }
-   void unlock(void)
+   void unlock(void)                                         // Function made by chaitali
    {
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 0);
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 0);
@@ -59,7 +70,7 @@ int enc()
       delay();
 
    }
-   void Activate_Approach_light(void)
+   void Activate_Approach_light(void)                         // Function made by suvedha
    {
      
       GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_15);
@@ -72,7 +83,7 @@ int enc()
       delay();
       
    }
-   int main(void)
+   int main(void)                                           // main function made by Nithin
    {   
       int num = 0;
       GPIO_Handle_t GpioLed, GPIOBtn, GpioLed1, GpioLed2, GpioLed3;
@@ -117,7 +128,7 @@ int enc()
       GPIO_PeriClockControl(GPIOA, ENABLE);
       GPIO_Init(&GPIOBtn);
       
-      if (enc())
+      if (enc())                                         // ALL GROUP 4 MEMBERS
       {
 
          while (1)
