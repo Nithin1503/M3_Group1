@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-Bi-Com system is an extension of uni-directional Remote Keyless Entry(RKE) to bi-directional RKE. Remote Bi-Com is an electronic access system that is used to perform specific funtions and  require the end user to initiate an action. Here, the communication is not only from key fob to car but also from car to key fob. Some of the additional features supported in Bi-com are to get the information about staus of car which includes window status, alarm status, battery information and door status.
+Bi-Com system is an extension of uni-directional Remote Keyless Entry(RKE) to bi-directional RKE. Remote Bi-Com is an electronic access system that is used to perform specific funtions and  require the end user to initiate an action. Here, the communication is not only from key fob to car but also from car to key fob. Some of the additional features supported in Bi-com are to get the information about status of car which includes window status, alarm status, battery information and door status.
 
 ## IDENTIFYING FEATURES
 By pressing the button:
