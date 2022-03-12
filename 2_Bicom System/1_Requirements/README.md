@@ -1,4 +1,4 @@
-## BICOM SYSTEM
+# BICOM SYSTEM
 
 ## DESCRIPTION
 
@@ -11,9 +11,9 @@ By pressing the button:
 - It also displays about the car battery information.
 - It also shows the door status of a car whether open or not.
 
-# REQUIREMENTS
+## REQUIREMENTS
 
-## High Level Requirements
+### High Level Requirements
 
 High Level Requirement ID     | Description |
 -------| -----------------------------------------|
@@ -22,7 +22,7 @@ HLR_1  |Get the status of car alarm|
 HLR_1  |Get the information about car battery|
 HLR_1  |Get the status of car door|
 
-## Low Level Requirements
+### Low Level Requirements
 
 
 | ID | Low Level Requirements for HL_1|       |ID | Low Level Requirements for HL_2|
