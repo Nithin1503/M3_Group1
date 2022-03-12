@@ -11,7 +11,7 @@ By depending upon the number of times the button pressed
 
 ## REQUIREMENTS
  
- # High Level Requirements:
+ ### High Level Requirements:
 
 ID     | Description
 -------| -----------------------------------------
@@ -21,7 +21,7 @@ HLR 3  |Remote keyless sytem shall be used to activate or deactivate the alarm
 HLR 4  |Remote keyless system shall be used to indicate lights 
 HLR 5  |Remote keyless system shall be resistant to unauthorized access
 
-# Low Level Requirements
+### Low Level Requirements
 
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|  
 | -------- | -------------- | ---- |-------- | -------------- |  
