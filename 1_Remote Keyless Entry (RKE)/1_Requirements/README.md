@@ -1,4 +1,4 @@
-## REMOTE KEYLESS ENTRY
+# REMOTE KEYLESS ENTRY
 ## DESCRIPTION
 Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles. Over 70% of the vehicles made today come with a remote keyless entry (RKE) system either standard or as an option. RKE systems are also a high volume after-market accessory. Most remote keyless entry systems alarm the vehicle against theft and lock and unlock the doors and trunk. Some include remote start and car finder functions.
 Remote keyless systems consist of a key fob transmitter and a receiver inside the vehicle.
@@ -9,9 +9,9 @@ By depending upon the number of times the button pressed
 * It should activate and deactivate the car alarm
 * It should activate the approach light of car.
 
-# REQUIREMENTS
+## REQUIREMENTS
  
- ## High Level Requirements:
+ # High Level Requirements:
 
 ID     | Description
 -------| -----------------------------------------
@@ -21,7 +21,7 @@ HLR 3  |Remote keyless sytem shall be used to activate or deactivate the alarm
 HLR 4  |Remote keyless system shall be used to indicate lights 
 HLR 5  |Remote keyless system shall be resistant to unauthorized access
 
-## Low Level Requirements
+# Low Level Requirements
 
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|  
 | -------- | -------------- | ---- |-------- | -------------- |  
